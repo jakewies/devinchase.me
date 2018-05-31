@@ -15,6 +15,9 @@ const Nav = () => (
         <NavLink target="_blank" href="https://www.etsy.com/shop/chaseprints">
           Chase Prints
         </NavLink>
+        <Link href="/work">
+          <NavLink>Work</NavLink>
+        </Link>
       </NavLinks>
     </NavInner>
   </StyledNav>
@@ -47,6 +50,7 @@ const NavLink = styled.a`
   text-decoration: none;
   text-transform: uppercase;
   padding: 0 10px;
+  cursor: pointer;
 
   &:first-child {
     padding-left: 0px;
