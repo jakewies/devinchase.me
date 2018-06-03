@@ -1,39 +1,41 @@
 import React from 'react'
 import styled from 'styled-components'
+import { media } from '../utils'
 
 const HomeSplash = () => (
-  <HomeSplashContainer>
-    <Title>Devin Chase</Title>
-    <FlexContainer>
-      <Blurb>Artist & Interior Designer located in Fort Lauderdale, FL.</Blurb>
+  <Container>
+    <ContainerInner>
+      <div>
+        <Title>Devin Chase</Title>
+        <Blurb>Artist & Interior Designer located in Fort Lauderdale, FL.</Blurb>
+      </div>
       <Button href="mailto:devinmchase@icloud.com?subject=Contacting you from your website">
         SAY HELLO
       </Button>
-    </FlexContainer>
-  </HomeSplashContainer>
+    </ContainerInner>
+  </Container>
 )
 
-const HomeSplashContainer = styled.div`
+const Container = styled.div`
+  height: 100%;
+  max-height: 600px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
 `
 
-const FlexContainer = styled.div`
+const ContainerInner = styled.div`
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
+  align-items: center;
+  width: 100%;
 
-  p {
-    margin-bottom: 25px;
-  }
-
-  @media (min-width: 650px) {
-    flex-direction: row;
-    p {
-      margin-bottom: 0;
-    }
-  }
+  ${media.mobile`
+    display: block;
+  `};
 `
 
 const Title = styled.h1`
@@ -50,6 +52,7 @@ const Blurb = styled.p`
 `
 
 const Button = styled.a`
+  display: block;
   background-color: #e5e8ed;
   color: #999ba2;
   width: 125px;
@@ -60,6 +63,10 @@ const Button = styled.a`
   letter-spacing: 1px;
   text-decoration: none;
   text-align: center;
+
+  ${media.mobile`
+    margin-top: 2rem;
+  `};
 `
 
 export default HomeSplash

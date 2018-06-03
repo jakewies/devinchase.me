@@ -1,17 +1,19 @@
 import React from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
+import { media } from '../utils'
+import { NAV_HEIGHT } from '../constants'
 
 const Nav = () => (
   <StyledNav>
     <NavInner>
       <NavLinks>
-        <NavLink target="_blank" href="https://www.behance.net/devinchase">
-          Behance
-        </NavLink>
-        <NavLink target="_blank" href="https://www.instagram.com/vitamin_ddd">
-          Instagram
-        </NavLink>
+        <Link href="/">
+          <NavLink>Home</NavLink>
+        </Link>
+        <Link href="/about">
+          <NavLink>About</NavLink>
+        </Link>
         <NavLink target="_blank" href="https://www.etsy.com/shop/chaseprints">
           Chase Prints
         </NavLink>
@@ -25,14 +27,14 @@ const Nav = () => (
 
 const StyledNav = styled.nav`
   background-color: #82a7a6;
-  height: 25vh;
+  height: ${NAV_HEIGHT}px;
 `
 
 const NavInner = styled.div`
   height: 100%;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 2rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -59,6 +61,10 @@ const NavLink = styled.a`
   &:last-child {
     padding-right: 0px;
   }
+
+  ${media.mobile`
+    font-size: 12px;
+  `};
 `
 
 export default Nav

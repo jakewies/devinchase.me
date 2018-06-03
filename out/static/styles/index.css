@@ -2,6 +2,7 @@ html,
 body {
   background-color: #fff;
   color: #111;
+  height: 100%;
 }
 
 html {
@@ -18,13 +19,11 @@ html {
   box-sizing: border-box;
 }
 
-@media (max-width: 650px) {
-  html {
-    font-size: 14px;
-  }
+#__next {
+  height: 100%;
 }
 
-.slider {
+/* .slider {
   transform: translateY(0);
   transition: all 250ms cubic-bezier(0.46, 0.18, 0.83, 0.67);
 }
@@ -39,4 +38,10 @@ html {
 
 .slider__button--active svg {
   transform: rotate(180deg);
+} */
+
+@media (max-width: 650px) {
+  html {
+    font-size: 14px;
+  }
 }

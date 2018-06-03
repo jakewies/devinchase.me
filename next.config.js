@@ -2,6 +2,7 @@ module.exports = {
   exportPathMap: function(defaultPathMap) {
     return {
       '/': { page: '/' },
+      '/about': { page: '/about' },
       // '/chase-prints': { page: '/chase-prints' },
       '/work': { page: '/work' }
       // '/readme.md': { page: '/readme' },
