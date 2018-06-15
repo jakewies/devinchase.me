@@ -11,7 +11,6 @@ export default () => (
 )
 
 const Footer = styled.footer`
-  flex-grow: 1;
   display: flex;
   align-items: flex-end;
 `

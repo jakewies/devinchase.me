@@ -29,8 +29,7 @@ export default () => (
 )
 
 const Container = styled.div`
-  height: 100%;
-  max-height: 600px;
+  flex-grow: 1;
   display: flex;
   align-items: center;
   width: 100%;

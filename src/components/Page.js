@@ -14,7 +14,7 @@ const Page = ({ children }) => (
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  height: 100%;
+  min-height: 100%;
 `
 
 export default Page
