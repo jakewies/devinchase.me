@@ -1,10 +1,25 @@
 import styled from 'styled-components'
-import { media } from '../../utils'
-import { NAV_HEIGHT, MOBILE_NAV_WIDTH } from '../../constants'
+import { media } from '../../../utils'
+import { NAV_HEIGHT, MOBILE_NAV_WIDTH, NAV_BG } from '../../../constants'
 
 export const StyledNav = styled.nav`
-  background-color: #82a7a6;
+  background-color: ${NAV_BG};
   height: ${NAV_HEIGHT}px;
+
+  ${media.mobileNav`
+    z-index: 2;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 3rem;
+    width: ${MOBILE_NAV_WIDTH}px;
+    background: #333;
+    transition: transform 200ms cubic-bezier(.46, .18, .83, .67);
+    transform: ${props =>
+      props.mobileNavActive ? 'translateX(0)' : 'translateX(' + MOBILE_NAV_WIDTH + 'px)'};
+  `};
 `
 
 export const NavInner = styled.div`
@@ -16,37 +31,18 @@ export const NavInner = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  ${media.mobile`
-    padding: 0 1rem;
+  ${media.mobileNav`
+      display: block;
   `};
 `
 
 export const LeftContainer = styled.div`
   display: flex;
   align-items: center;
-`
-
-export const BurgerContainer = styled.div`
-  display: none;
-  margin-right: 2rem;
-  cursor: pointer;
 
   ${media.mobileNav`
-    display: block;
+      display: none;
   `};
-`
-
-export const Logo = styled.h1`
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 2rem;
-  flex-shrink: 0;
-  margin-right: 10px;
-
-  a {
-    color: #f7fff7;
-    text-decoration: none;
-    font-weight: lighter;
-  }
 `
 
 export const NavLinks = styled.div`
@@ -58,17 +54,6 @@ export const NavLinks = styled.div`
 
   ${media.mobileNav`
     flex-direction: column;
-    justify-content: flex-start;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    padding-top: 3rem;
-    width: ${MOBILE_NAV_WIDTH}px;
-    background: #333;
-    transition: transform 200ms cubic-bezier(.46, .18, .83, .67);
-    transform: ${props =>
-      props.mobileNavActive ? 'translateX(0)' : 'translateX(' + MOBILE_NAV_WIDTH + 'px)'};
   `};
 `
 
