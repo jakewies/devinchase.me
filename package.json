@@ -6,12 +6,13 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "dev": "next",
+    "dev": "node server.js",
     "build": "next build && next export",
     "start": "next start"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.5.1",
+    "express": "^4.16.3",
     "flexomatic": "^1.1.0",
     "next": "^6.0.3",
     "react": "^16.3.2",

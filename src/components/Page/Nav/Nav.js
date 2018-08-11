@@ -20,8 +20,8 @@ const Nav = () => (
             <NavLink target="_blank" href="https://www.etsy.com/shop/chaseprints">
               Chase Prints
             </NavLink>
-            <Link href="/work" prefetch>
-              <NavLink>Work</NavLink>
+            <Link href="/portfolio" prefetch>
+              <NavLink>Portfolio</NavLink>
             </Link>
           </NavLinks>
         </NavInner>
