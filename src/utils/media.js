@@ -1,9 +1,8 @@
 import { css } from 'styled-components'
 
 const sizes = {
-  mobile: 500,
-  mobileNav: 600,
-  tablet: 1024
+  mobile: 700,
+  tablet: 1024,
 }
 
 const media = Object.keys(sizes).reduce((accumulator, label) => {

@@ -1,11 +1,12 @@
 import styled from 'styled-components'
-import { media } from '../../../utils'
+import media from '../../../utils/media'
 
-export const Container = styled.div`
+export const BurgerContainer = styled.div`
   display: none;
 
-  ${media.mobileNav`
+  ${media.mobile`
     display: flex;
+    align-items: center;
     padding: 2rem 1rem;
   `};
 `

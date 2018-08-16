@@ -3,12 +3,13 @@ import { Container } from 'unstated'
 
 class NavContainer extends Container {
   state = {
-    mobileNavActive: false
+    mobileNavActive: false,
   }
 
   toggleMobileNav = () => {
-    console.log('toggling')
-    this.setState(prevState => ({ mobileNavActive: !prevState.mobileNavActive }))
+    this.setState(prevState => ({
+      mobileNavActive: !prevState.mobileNavActive,
+    }))
   }
 }
 

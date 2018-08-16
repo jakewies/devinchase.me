@@ -1,14 +1,14 @@
 import React from 'react'
 import { Subscribe } from 'unstated'
-import Logo from '../Logo/Logo'
+import Logo from '../Header/Logo/Logo'
 import NavContainer from '../../../containers/NavContainer'
-import { Container, StyledBurger } from './styled'
-import { BLACK } from '../../../constants'
+import { BurgerContainer, StyledBurger } from './styled'
+import { BLACK } from '../../../utils/constants'
 
-const Burger = () => (
+const Burger = ({ logoActive }) => (
   <Subscribe to={[NavContainer]}>
     {nav => (
-      <Container>
+      <BurgerContainer>
         <StyledBurger onClick={nav.toggleMobileNav}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -26,8 +26,8 @@ const Burger = () => (
             <line x1="3" y1="18" x2="21" y2="18" />
           </svg>
         </StyledBurger>
-        <Logo />
-      </Container>
+        <Logo active={logoActive} />
+      </BurgerContainer>
     )}
   </Subscribe>
 )
