@@ -6,7 +6,7 @@ tags: ['modern farmhouse', 'neutral', 'timeless', 'bright', 'airy']
 specs:
   location: 'Delray, FL'
   sqft: '3,500'
-  completed: 'Under Construction'
+  completed: 'August 2018'
 ---
 
 Designing a model home for future buyers is quiet the blank canvas. We were able to collaborate with the architect and the builder for both the exterior and interior of the home. The exterior West Indies style fits right into the Delray neighborhood, while still standing out with its fresh clean look. Tongue and groove wood on the exterior fascia compliment the dark bronze window trim. Florida native plants accent the property with lush greens and small pops of color.

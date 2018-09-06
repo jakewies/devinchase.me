@@ -13,13 +13,21 @@ export const Spec = styled.div`
   font-size: 0.8rem;
   font-weight: bold;
   font-family: 'Josefin Sans', sans-serif;
-  margin-right: 2rem;
+  margin-right: 3rem;
+
+  @media (max-width: 650px) {
+    margin-right: 2rem;
+  }
 `
 
 export const Key = styled.span`
   color: #c4c4c4;
   display: inline-block;
   margin-right: 5px;
+
+  &:after {
+    content: ':';
+  }
 
   @media (max-width: 500px) {
     width: 75px;
