@@ -13,6 +13,7 @@ import {
 const PortfolioTemplate = ({ data }) => {
   const item = data.markdownRemark
   const images = data.allFile.edges
+  console.log(images)
   return (
     <Container>
       <Header>
