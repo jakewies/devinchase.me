@@ -12,9 +12,7 @@ const HomePage = () => (
     <ContainerInner>
       <div>
         <Title>Devin Chase</Title>
-        <Blurb>
-          Artist & Interior Designer located in Fort Lauderdale, FL.
-        </Blurb>
+        <Blurb>Artist & Interior Designer located in Orlando, FL.</Blurb>
       </div>
       <Button href="mailto:devinmchase@icloud.com?subject=Contacting you from your website">
         SAY HELLO
