@@ -4,10 +4,20 @@ thumbnail: './gallery/dns/main.jpg'
 gallery: 'portfolio/gallery/dns'
 tags: []
 specs:
+  client: 'Dynamic Network Support'
   location: 'Fort Lauderdale, FL'
-  sqft: '1,175'
-  completed: 'Winter 2018'
+  sqft: '1,200'
+  completed: '2018'
+  specialty: 'Corporate Office'
 ---
+
+## Services
+
+- Programming & Space Planning
+- Interior Design 
+- Construction Documentation
+- Construction Administration 
+- Project Management  
 
 Tech companies are typically ahead of the game when it comes to knowledge and products in the technological world. We created an office space that aligns with the this as well as the companies design aesthetic. 
 

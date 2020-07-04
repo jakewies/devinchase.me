@@ -1,17 +1,24 @@
 ---
-title: 'Playroom'
-thumbnail: './gallery/playroom/main.jpg'
-gallery: 'portfolio/gallery/playroom'
+title: 'Kids Loft'
+thumbnail: './gallery/kids-loft/main.jpg'
+gallery: 'portfolio/gallery/kids-loft'
 tags: ['playful', 'explorative']
 specs:
+  client: 'Private'
   location: 'Weston, FL'
   sqft: '500'
-  completed: 'December 2017'
+  completed: '2017'
+  specialty: 'Residential Design'
 ---
 
-Location: Weston, FL
-Square Footage: 500
-Completed: December 2017
+## Services
+
+- Space Planning
+- Interior Design 
+- Construction Documentation
+- Construction Administration 
+- Project Management 
+
 
 This project gave me the opportunity to bring out my inner child. I wanted the bright toys and colorful books to stand out in this space. I purposely selected a neutral background with lots of cozy and soft textures. The contrast was brought in by pieces like the leather tufted ottoman, which offers functionality and durability without sacrificing style.
 

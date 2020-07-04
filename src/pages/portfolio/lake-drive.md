@@ -4,10 +4,23 @@ thumbnail: './gallery/lake-drive/main.jpg'
 gallery: 'portfolio/gallery/lake-drive'
 tags: ['modern farmhouse', 'neutral', 'timeless', 'bright', 'airy']
 specs:
+  client: 'CJK Holdings Builder'
   location: 'Delray, FL'
   sqft: '3,500'
-  completed: 'August 2018'
+  completed: '2018'
+  specialty: 'Residential Design'
 ---
+
+## Services
+
+- Space Planning
+- Interior Design 
+- Exterior Architecture Collaboration 
+- Landscaping Collaboration 
+- Construction Documentation
+- Construction Administration 
+- Project Management 
+
 
 Designing a model home for future buyers is quiet the blank canvas. We were able to collaborate with the architect and the builder for both the exterior and interior of the home. The exterior West Indies style fits right into the Delray neighborhood, while still standing out with its fresh clean look. Tongue and groove wood on the exterior fascia compliment the dark bronze window trim. Florida native plants accent the property with lush greens and small pops of color.
 

@@ -12,10 +12,19 @@ tags:
     'statement',
   ]
 specs:
-  location: 'Victoria Park, FL'
+  client: 'Private'
+  location: 'Fort Lauderdale, FL'
   sqft: '4,900'
-  completed: 'December 2017'
+  completed: '2017'
+  specialty: 'Residential Design'
 ---
+
+## Services
+
+- Space Planning
+- Interior Design 
+- Construction Administration 
+- Project Management 
 
 This large scale waterfront home is located in the ever eclectic neighborhood of Victoria Park. The materials in this home are nothing short of glamour and luxury. With multiple layers of sophisticated patterns, neutral tones and plush velvets, this home is sure to bring the feeling of royalty.
 

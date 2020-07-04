@@ -4,9 +4,11 @@ thumbnail: './gallery/fattmerchant/main.jpg'
 gallery: 'portfolio/gallery/fattmerchant'
 tags: []
 specs:
+  client: 'Fattmerchant'
   location: 'Orlando, FL'
   sqft: '15,200'
   completed: '2020'
+  specialty: 'Corporate Office'
 ---
 
 ## Services

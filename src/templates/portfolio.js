@@ -40,9 +40,11 @@ export const query = graphql`
         title
         tags
         specs {
+          client
           location
           sqft
           completed
+          specialty
         }
       }
     }
